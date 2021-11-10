@@ -1,0 +1,171 @@
+.welcome{
+position: absolute;
+width: 50%;
+height: 10%;
+left: 50%;
+top: 1%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 40px;
+text-align: center;
+color: #FCFCFC;
+}
+
+
+/* Log in */
+
+.login1{
+position: absolute;
+width: 30%;
+height: 10%;
+left: 60%;
+top: 60%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 200%;
+line-height: 12%;
+text-align: center;
+background-color: #00C2FF;
+color: #000000;
+}
+
+.signup1{
+position: absolute;
+width: 30%;
+height: 10%;
+left: 60%;
+top: 75%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 100%;
+line-height: 12%;
+text-align: center;
+color: #0000BB;
+}
+
+.namebox1{
+position: absolute;
+width: 30%;
+height: 10%;
+left: 60%;
+top: 30%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 128px;
+display: flex;
+align-items: center;
+background: #FCFCFC;
+color: #8A8A8A;
+
+}
+.namebox2{
+position: absolute;
+width: 30%;
+height: 10%;
+left: 60%;
+top: 45%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 128px;
+display: flex;
+align-items: center;
+background: #FCFCFC;
+color: #8A8A8A;
+
+}
+
+@media(max-width: 400px){
+
+.welcome{
+position: absolute;
+width: 100%;
+height: 20%;
+left: 0%;
+top: 0%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 35px;
+text-align: center;
+color: #000000;
+}
+
+.login1{
+position: absolute;
+width: 40%;
+height: 7%;
+left: 30%;
+top: 50%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+background: #00C2FF;
+border-radius: 10px;
+color: #000000;
+}
+.namebox1{
+position: absolute;
+left: 25%;
+top: 25%;
+width: 50%;
+height: 7%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 128px;
+display: flex;
+align-items: center;
+background: #0B0B0B;
+color: #8A8A8A;
+
+}
+.namebox2{
+position: absolute;
+left: 25%;
+top: 40%;
+width: 50%;
+height: 7%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 128px;
+display: flex;
+align-items: center;
+background: #0B0B0B;
+color: #8A8A8A;
+
+}
+.signup1{
+position: absolute;
+width: 30%;
+height: 10%;
+left: 35%;
+top: 60%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 100%;
+line-height: 30%;
+text-align: center;
+color: #0000BB;
+}
+
+}

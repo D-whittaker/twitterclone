@@ -1,0 +1,179 @@
+.signup2{
+position: absolute;
+width: 30%;
+height: 7%;
+left: 60%;
+top: 70%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+background: #039700;
+border-radius: 10px;
+color: #000000;
+}
+
+.namebox1{
+position: absolute;
+width: 30%;
+height: 5%;
+left: 60%;
+top: 30%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 128px;
+display: flex;
+align-items: center;
+background: #FCFCFC;
+color: #8A8A8A;
+
+}
+.namebox2{
+position: absolute;
+width: 30%;
+height: 5%;
+left: 60%;
+top: 40%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 128px;
+display: flex;
+align-items: center;
+background: #FCFCFC;
+color: #8A8A8A;
+
+}
+.namebox3{
+position: absolute;
+width: 30%;
+height: 5%;
+left: 60%;
+top: 50%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 128px;
+display: flex;
+align-items: center;
+background: #FCFCFC;
+color: #8A8A8A;
+
+}
+.namebox4{
+position: absolute;
+width: 30%;
+height: 5%;
+left: 60%;
+top: 60%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 128px;
+display: flex;
+align-items: center;
+background: #FCFCFC;
+color: #8A8A8A;
+
+}
+
+
+@media(max-width: 400px){
+/* We Welcome all Melodies */
+
+
+.signup2{
+position: absolute;
+width: 40%;
+height: 7%;
+left: 30%;
+top: 70%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+background: #039700;
+border-radius: 10px;
+color: #000000;
+}
+
+.namebox1{
+position: absolute;
+left: 25%;
+top: 30%;
+width: 50%;
+height: 5%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 128px;
+display: flex;
+align-items: center;
+background: #0B0B0B;
+color: #8A8A8A;
+
+}
+.namebox2{
+position: absolute;
+left: 25%;
+top: 40%;
+width: 50%;
+height: 5%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 128px;
+display: flex;
+align-items: center;
+background: #0B0B0B;
+color: #8A8A8A;
+
+}
+.namebox3{
+position: absolute;
+left: 25%;
+top: 50%;
+width: 50%;
+height: 5%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 128px;
+display: flex;
+align-items: center;
+background: #0B0B0B;
+color: #8A8A8A;
+
+}
+.namebox4{
+position: absolute;
+left: 25%;
+top: 60%;
+width: 50%;
+height: 5%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 128px;
+display: flex;
+align-items: center;
+background: #0B0B0B;
+color: #8A8A8A;
+
+}
+}

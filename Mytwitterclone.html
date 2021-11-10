@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta name="veiwpoint" content="width-device=width, initial-value=1">
+	<title>Introduction</title>
+	<link rel="stylesheet" href="home.css">
+	<link rel="stylesheet" href="loginmap.css">
+	<link rel="stylesheet" href="Signupmap.css">
+	<link rel="stylesheet" href="main.css">
+	<script src="js/user.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/helpers.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/fetch.js"></script>
+</head>
+<body onload="start()">
+	<section id="home">
+		<section class= "pic1">
+				<p>Artistic Melody</p>
+		</section>
+		<p class="text1">Life is an Art</p>
+		<p class="text1" style="font-size: 30px; top: 20%"><sub>What is your masterpiece</sub></p>
+		<button class="login0" onclick="loginbtn()">Login</button>
+		<button class="signup0" onclick="signupbtn()">Sign up</button>
+		<section class="linktext">
+			<p> About | terms and services | Privacy policy | Cookie Policy</p>
+		</section>
+		<img src="Untitled.png">	
+	</section>
+	<section id="login">
+		<section class= "pic1">
+			<p>Artistic Melody</p>
+		</section>
+		<p class="welcome">A Fellow Artist</p>
+		<input class="namebox1" type="text" id="username-L" placeholder="Username">
+		<input class="namebox2" type="text" id="email-L" placeholder="Email">
+		<button class="login1" onclick="checkUser()">Login</button>
+		<p class="signup1" onclick="signupbtn()">sign up today</p>
+		<section class="linktext">
+			<p> About | terms and services | Privacy policy | Cookie Policy</p>
+		</section>	
+		<img src="Untitled.png">	
+	</section>
+	<section id="signup">
+		<section class= "pic1">
+			<p>Artistic Melody</p>
+		</section>
+		<p class="welcome">We Welcome all Melodies</p>
+		<input class="namebox1" type="text" id="first-name-S" placeholder="Firstname">
+		<input class="namebox2" type="text" id="last-name-S"placeholder ="Lastname">
+		<input class="namebox3" type="text" id="username-S" placeholder ="Username">
+		<input class="namebox4" type="text" id="email-S" placeholder ="Email">
+		<button class="signup2" onclick="createUser()">Sign In</button>
+		<img src="Untitled.png">	
+		<section class="linktext">
+			<p> About | terms and services | Privacy policy | Cookie Policy</p>
+		</section>	
+	</section>
+	<section id="main">
+
+		<div class="flex-container">
+			<div class="aboutMe"><h1>Voice</h1><p onclick="homebtns()">Logout</p></div>
+			<div class="mypieces">
+				<div  class="new-piece">
+					<input type="text" placeholder="type here" id="new-piece-text">
+			 		<button type="button" onclick="createPiece()"  id="new-piece-btn">
+                    Post
+                	</button>
+            	</div>
+
+			 	<div class="pieces">
+			 		
+			 	</div>
+  			</div>
+			<div class="fellowArtist">3</div>  
+		</div>
+	</section>
+</body>
+</html>
